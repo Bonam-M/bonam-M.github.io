@@ -1,487 +1,225 @@
-<!DOCTYPE HTML>
-<!--
-	Bonam Mingole Website
-	made using template from html5up.net 
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Bonam Mingole</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar_bm.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Bonam Mingole</a></h1>
-					<p>Informatics PhD student <br />
-				    at Penn State</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Research</a></li>
-						<li><a href="#three">Projects</a></li>
-						<li><a href="#four">Contact</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
-			</section>
+  <head>
+    <!-- Metadata for the Webpage -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jane Smith, MS</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Bootstrap CSS files-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner_bm1.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2>Bonam Mingole</h2>
-										<p>Informatics PhD student<br />
-										at the <a href="http://amulyayadav.com/research.html">RAISE Lab @ Penn State</a>.</p>
-									</header>
-									<p>I am a Phd student at the <a href="https://ist.psu.edu/">College of Information Sciences and Technology</a> at Penn State. My research is focused on developing Responsible AI solutions for social good. As a researcher, I aim to promote the operationalization of AI ethics principles, ensuring that the AI technology we create is safe, fair, and trustworthy.</p>
-								</div>
-							</section>
+    <!-- jQuery UI CSS (optional) -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Research</h3>
-									<p>What is Responsible AI? </p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Explainability</li>
-										<li class="icon solid fa-balance-scale">Fairness</li>
-										<li class="icon solid fa-user-lock">Safety</li>
-										<li class="icon solid fa-thumbs-up">Trust</li>
-										<li class="icon solid fa-file-signature">Accountability</li>
-										<li class="icon solid fa-bolt">Sustainability</li>									
-									</ul>
-								</div>
-							</section>
+    <!-- Google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
 
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>Projects</h3>
-									<p>Here are some machine learning (ML) products I developed.</p>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/mraw_pic.jpg" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/Bonam-M/MRAW">MRAW</h4>
-												<p>Mortality Rates prediction based on Access to Water(MRAW) is a group of 4 ML models predicting mortality rates based on access to clean drinking water in a country. </p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/digitalaize_pic.jpg" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/Bonam-M/DigitalAIze">DigitalAIze</h4>
-												<p>A set of ML tools to facilitate Digital Transformation for Small Businesses from communities with limited access to Information Technology.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/aithical_pic.jpg" alt="" /></a>
-											<div class="inner">
-												<h4><a href="https://github.com/Bonam-M/aithical">AIthical</h4>
-												<p>A prototype platform that helps AI practitioners easily access regulations and ethical guidelines to ensure their projects are fair and ethical. </p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+    <!-- Font Awesome Web Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>For any inquiries, please use this form.</p>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" class="primary" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
-							</section>
+    <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
-						<!-- Five -->
-						<!--
-							<section id="five">
-								<div class="container">
-									<h3>Elements</h3>
+    <!-- Local styles -->
+    <link rel="stylesheet" href="css/main.css">
 
-									<section>
-										<h4>Text</h4>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<header>
-											<h4>Heading with a Subtitle</h4>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<header>
-											<h5>Heading with a Subtitle</h5>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-										<hr />
-										<h5>Blockquote</h5>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h5>Preformatted</h5>
-										<pre><code>i = 0;
+  </head>
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+  <body>
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
+    <!-- navbar include -->
+    <div id="navbar-include"></div>
 
-									<section>
-										<h4>Lists</h4>
-										<div class="row">
-											<div class="col-6 col-12-xsmall">
-												<h5>Unordered</h5>
-												<ul>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-												<h5>Alternate</h5>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-											</div>
-											<div class="col-6 col-12-xsmall">
-												<h5>Ordered</h5>
-												<ol>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ol>
-												<h5>Icons</h5>
-												<ul class="icons">
-													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h5>Actions</h5>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-										<ul class="actions small">
-											<li><a href="#" class="button primary small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<div class="row">
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-													<li><a href="#" class="button alt">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6 col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-													<li><a href="#" class="button alt small">Small</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-													<li><a href="#" class="button alt fit">Default</a></li>
-												</ul>
-											</div>
-											<div class="col-3 col-6-medium col-12-xsmall">
-												<ul class="actions stacked">
-													<li><a href="#" class="button primary small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-													<li><a href="#" class="button alt small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
+    <div class="spacer-div-3 hidden-xs hidden-xs"></div>
 
-									<section>
-										<h4>Table</h4>
-										<h5>Default</h5>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
+    <!-- Main content    -->
+    <div id="main-container" class="container">
 
-										<h5>Alternate</h5>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
 
-									<section>
-										<h4>Buttons</h4>
-										<ul class="actions">
-											<li><a href="#" class="button primary">Primary</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Alternate</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary large">Large</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button primary fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button alt fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button primary disabled">Primary</span></li>
-											<li><span class="button disabled">Default</span></li>
-											<li><span class="button alt disabled">Alternate</span></li>
-										</ul>
-									</section>
+      <!----------------------------------------------------------------------------------------------------- DELETE THIS SECTION WHEN EDITING THIS TEMPLATE ---------------------------------------------------------------------------------------------------------------------------->
 
-									<section>
-										<h4>Form</h4>
-										<form method="post" action="#">
-											<div class="row gtr-uniform">
-												<div class="col-6 col-12-xsmall">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="col-6 col-12-xsmall">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<select name="demo-category" id="demo-category">
-														<option value="">- Category -</option>
-														<option value="1">Manufacturing</option>
-														<option value="1">Shipping</option>
-														<option value="1">Administration</option>
-														<option value="1">Human Resources</option>
-													</select>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="col-4 col-12-medium">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy of this message</label>
-												</div>
-												<div class="col-6 col-12-medium">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">I am a human and not a robot</label>
-												</div>
-												<div class="col-12">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
+      <div class="alert alert-success" role="alert">
+        <p>
+          <i class="fa fa-star fa-fw" aria-hidden="true"></i>
+          <a class="close" data-dismiss="alert" aria-label="close">×</a>
+          <strong>A Bootstrap v4.x Version is Available!</strong>
+          <br>
+          I've created a Bootstrap 4.x version of this template, with even cooler features. You can find and download it
+          free at: <a href="https://randal-sean-harrison.github.io/academic-website-template-bs4/index.html"
+            target="_blank">Academic Website Template BS4</a>
+        </p>
+      </div>
 
-									<section>
-										<h4>Image</h4>
-										<h5>Fit</h5>
-										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
-										<div class="box alt">
-											<div class="row gtr-50 gtr-uniform">
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</section>
 
-								</div>
-							</section>
-						-->
+      <div class="alert alert-info" role="alert">
+        <p>
+          <i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>
+          <a class="close" data-dismiss="alert" aria-label="close">×</a>
+          <strong>Template and tools</strong>
+          <br>
+          This template is <a href="https://github.com/randal-sean-harrison/academic-website-template"
+            target="_blank">free on Github</a>. No attribution necessary. Extend this template further by building
+          additional Bootstrap 3 components in seconds
+          with my <a href="https://bootstrapr.io" target="_blank">Boostrapr.io</a> app!
+        </p>
+        <p>Photo by <a
+            href="https://unsplash.com/@andresherrerapics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andres
+            Herrera</a> on <a
+            href="https://unsplash.com/s/photos/head-shot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-					</div>
+        </p>
+      </div>
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+      <!----------------------------------------------------------------------------------------------------- DELETE THIS (ABOVE) WHEN EDITING THIS TEMPLATE ---------------------------------------------------------------------------------------------------------------------------->
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="center-block img img-responsive" src="img/andres-herrera-457c7WKmfTw-unsplash_sm.jpg"
+            alt="Image of Jane Smith">
+
+          <p id="title">Doctoral Candidate<br>
+            <span id="program">Political Science</span>
+          </p>
+
+          <table class="table" id="contact-table">
+            <tbody>
+              <tr>
+                <td style="width:30px"><i class="fas fa-home"></i></td>
+                <td>
+                  James Trickington University<br>
+                  1234 Happiness Dr.<br>
+                  Anytown, State 12345
+                </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-phone"></i></td>
+                <td><a href="tel:9999999999">(999) 999-9999</a></td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-at"></i></td>
+                <td><a href="mailto:jane.smith@example-uni.edu">jane.smith@nd.edu</a></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+        <div class="col-sm-8">
+
+          <p>I am an {job title} in the {school | department} at {university | institute | organization} where I
+            {first responsibility}, {second responsibility}, and {third responsibility}. My research and teaching focus
+            on {first area}, {second area}, {third area} and {fourth area}.</p>
+
+          <p>I received my {degree} in {academic field} from {university} in {year}. I
+            studied {areas specific to your field} under the direction of {advisor}. There I worked on {describe major
+            relevant projects in recent significant degree}.</p>
+
+          <p>I am currently working on {summary list of projects} with {collaborators, if any} through the {university |
+            organization}.</p>
+
+          <!-- If you don't want a 'read more' section, simple delete this section between the lines of equal signs -->
+          <!-- ============ READ MORE SECTION BELOW =====================  -->
+          <div id="read-more">
+
+            <p class="push-down-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolore doloremque,
+              tenetur temporibus fugit maiores, labore porro nobis laborum animi consectetur omnis cum iure obcaecati
+              voluptatem, eius sunt totam
+              dolorum voluptatibus nostrum doloribus! Ipsa, a, aspernatur tenetur hic eum expedita.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolore doloremque, tenetur temporibus
+              fugit maiores, labore porro nobis laborum animi consectetur omnis cum iure obcaecati voluptatem, eius sunt
+              totam dolorum
+              voluptatibus nostrum doloribus! Ipsa, a, aspernatur tenetur hic eum expedita.</p>
+
+          </div>
+          <!-- .read-more -->
+          <span class="badge" id="badge-more">more</span>
+          <!-- ========= READ MORE SECTION ABOVE =====================  -->
+
+
+          <h3 class="push-down-3"><span>Education</span></h3>
+
+          <ul id="education">
+            <li>
+              <strong>Ph.D. in {FIELD}, {YEAR}</strong><br>
+              <span class="university"><em>University of Southern California</em></span>
+            </li>
+            <li>
+              <strong>M.A. in {FIELD}, {YEAR}</strong><br>
+              <span class="university"><em>{UNIVERSITY}</em></span>
+            </li>
+            <li>
+              <strong>B.A. in {FIELD}, {YEAR}</strong><br>
+              <span class="university"><em>{UNIVERSITY}</em></span>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Back-to-top button -->
+    <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link"
+      href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
+
+
+    <!-- footer include -->
+    <div w3-include-html="footer.html"></div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS Library -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"></script>
+
+    <!-- html file include script | used for navbar and footer -->
+    <script src="js/w3data.js"></script>
+    <script>
+      w3IncludeHTML()
+    </script>
+
+    <!-- Local scripts -->
+    <script src="js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+
+        $("#navbar-include").load("navbar.html", function () {
+          console.log("Navbar loaded.");
+        });
+
+      });
+    </script>
+
+  </body>
+
 </html>
