@@ -1,6 +1,6 @@
 # Bonam Mingole Academic Website 
 My name is Bonam Mingole,
-I am a Responsible AI researcher ad a PhD student at Pennsylvania State University.
+I am a Responsible AI researcher and a PhD student at Pennsylvania State University.
 
 My research is focused on investigating how artificial intelligence algorithms can be leveraged to create positive, and beneficial outcomes for all.
 
