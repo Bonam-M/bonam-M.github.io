@@ -129,6 +129,7 @@ h4, h5, h6 {
   background-image: url('../img/digitalaize_pic.jpg');
   background-size: cover;
   background-position: center;
+  background-color: red;
 }
 #projects .panel-heading.proj-6 {
   background-image: url(https://unsplash.it/300/200);
