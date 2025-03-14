@@ -2,7 +2,7 @@
 My name is Bonam Mingole,
 I am a Responsible AI researcher and a PhD student at Pennsylvania State University.
 
-My research is focused on investigating how artificial intelligence algorithms can be leveraged to create positive, and beneficial outcomes for all.
+My research is focused on investigating how artificial intelligence algorithms can be leveraged to create positive, and beneficial outcomes for all by ensuring that these technologies are fair, transparent, and accountable.
 
 This repository contains the files for my Academic website.
 
