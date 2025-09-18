@@ -124,21 +124,37 @@ h4, h5, h6 {
   background-position: center;
 }
 #projects .panel-heading.proj-3 {
-  background-image: url('../img/yahda_pic.png');
+  background-image: url('../img/alaaska_project.png');
   background-size: cover;
   background-position: center;
 }
 #projects .panel-heading.proj-4 {
-  background-image: url('../img/diagnoseathon.jpg');
+  background-image: url('../img/diagthon_ratings.png');
   background-size: cover;
   background-position: center;
 }
+
 #projects .panel-heading.proj-5 {
-  background-image: url('../img/fakeathon.jpg');
+  background-image: url('../img/cheating-ai.jpg');
   background-size: cover;
   background-position: center;
 }
 #projects .panel-heading.proj-6 {
+  background-image: url('../img/yahda_pic.png');
+  background-size: cover;
+  background-position: center;
+}
+#projects .panel-heading.proj-7 {
+  background-image: url('../img/diagnoseathon.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#projects .panel-heading.proj-8 {
+  background-image: url('../img/fakeathon.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#projects .panel-heading.proj-9 {
   background-image: url('../img/aithical_pic.jpg');
   background-size: cover;
   background-position: center;
